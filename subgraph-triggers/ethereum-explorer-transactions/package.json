@@ -2,11 +2,12 @@
   "name": "subraphtest",
   "license": "UNLICENSED",
   "scripts": {
+    "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ subraphtest",
-    "create-local": "graph create --node http://localhost:8020/ subraphtest",
-    "remove-local": "graph remove --node http://localhost:8020/ subraphtest",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 subraphtest",
+    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ solana-journal-subraph",
+    "create-local": "graph create --node http://localhost:8020/ solana-journal-subraph",
+    "remove-local": "graph remove --node http://localhost:8020/ solana-journal-subraph",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 solana-journal-subraph",
     "test": "graph test"
   },
   "dependencies": {
